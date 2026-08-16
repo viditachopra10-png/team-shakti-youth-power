@@ -1,57 +1,17 @@
-// Smooth scrolling for navigation links
+document.addEventListener("DOMContentLoaded", () => {
 
-document.querySelectorAll('a[href^="#"]').forEach(link => {
+    const earth = document.querySelector(".earth-area");
 
-    link.addEventListener("click", function(event) {
+    if (earth) {
 
-        event.preventDefault();
-
-        const target = document.querySelector(this.getAttribute("href"));
-
-        if (target) {
-            target.scrollIntoView({
-                behavior: "smooth"
-            });
-        }
-
-    });
-
-});
-
-
-// Simple scroll animation
-
-const cards = document.querySelectorAll(
-    ".info-card, .impact-card, .initiative-card, .process-step"
-);
-
-const observer = new IntersectionObserver(
-    entries => {
-
-        entries.forEach(entry => {
-
-            if (entry.isIntersecting) {
-
-                entry.target.style.opacity = "1";
-                entry.target.style.transform = "translateY(0)";
-
-            }
-
+        earth.addEventListener("mouseenter", () => {
+            earth.style.animationPlayState = "paused";
         });
 
-    },
-    {
-        threshold: 0.15
+        earth.addEventListener("mouseleave", () => {
+            earth.style.animationPlayState = "running";
+        });
+
     }
-);
-
-
-cards.forEach(card => {
-
-    card.style.opacity = "0";
-    card.style.transform = "translateY(25px)";
-    card.style.transition = "opacity 0.6s ease, transform 0.6s ease";
-
-    observer.observe(card);
 
 });
