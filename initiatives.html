@@ -1,140 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Our Initiatives | Team Shakti</title>
+    <title>Initiatives | Team Shakti</title>
 
     <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
 
 <header class="navbar">
+    <a href="index.html" class="logo">TEAM SHAKTI</a>
 
-    <div class="nav-container">
+    <button class="menu-btn" id="menuBtn">☰</button>
 
-        <a href="index.html" class="logo">
-            TEAM SHAKTI
-        </a>
-
-        <nav>
-
-            <a href="index.html">Home</a>
-            <a href="problem.html">Problem</a>
-            <a href="solution.html">Solution</a>
-            <a href="process.html">Process</a>
-            <a href="impact.html">Impact</a>
-            <a href="initiatives.html" class="active">Initiatives</a>
-
-        </nav>
-
-    </div>
-
+    <nav id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="problem.html">Problem</a>
+        <a href="solution.html">Solution</a>
+        <a href="process.html">Process</a>
+        <a href="impact.html">Impact</a>
+        <a href="initiatives.html" class="active">Initiatives</a>
+    </nav>
 </header>
 
 
-<main>
+<main class="inner-page">
 
-<section class="page-hero">
+    <section class="page-heading">
 
-    <p class="eyebrow">BEYOND THE PROJECT</p>
+        <p class="eyebrow">BEYOND THE PROJECT</p>
 
-    <h1>
-        Our Initiatives
-    </h1>
-
-    <p>
-        Turning our idea into activities that
-        students can actually participate in.
-    </p>
-
-</section>
-
-
-<section class="initiative-page">
-
-    <div class="initiative-large">
-
-        <span>01</span>
-
-        <h2>Working Prototype</h2>
+        <h1>Our Initiatives</h1>
 
         <p>
-            Our physical prototype demonstrates the
-            concept behind our sustainable methanol project
-            and helps us explain the process visually.
+            We want our project to be more than an idea. These initiatives
+            help us communicate, demonstrate and encourage action.
         </p>
 
-    </div>
+    </section>
 
 
-    <div class="initiative-large">
+    <section class="initiative-grid">
 
-        <span>02</span>
+        <article class="initiative-card">
+            <div class="initiative-icon">01</div>
 
-        <h2>Digital Carbon Calculator</h2>
+            <h2>Our Website</h2>
+
+            <p>
+                A digital platform explaining the problem, our solution,
+                the process and the impact of our project.
+            </p>
+        </article>
+
+
+        <article class="initiative-card">
+            <div class="initiative-icon">02</div>
+
+            <h2>Working Prototype</h2>
+
+            <p>
+                A physical model that helps people understand how our
+                proposed process can work.
+            </p>
+        </article>
+
+
+        <article class="initiative-card">
+            <div class="initiative-icon">03</div>
+
+            <h2>Digital Carbon Calculator</h2>
+
+            <p>
+                An interactive tool that helps users understand how
+                everyday choices can contribute to carbon emissions.
+            </p>
+        </article>
+
+
+        <article class="initiative-card">
+            <div class="initiative-icon">04</div>
+
+            <h2>Seven-Day Challenge</h2>
+
+            <p>
+                Simple daily activities designed to encourage school
+                students to make more sustainable choices.
+            </p>
+        </article>
+
+    </section>
+
+
+    <section class="challenge-box">
+
+        <p class="section-label">START SMALL</p>
+
+        <h2>
+            Small actions can create bigger awareness.
+        </h2>
 
         <p>
-            An interactive tool designed to help students
-            understand how everyday choices can contribute
-            to their carbon footprint.
+            Our goal is to make sustainability easier to understand,
+            discuss and practise.
         </p>
 
-    </div>
-
-
-    <div class="initiative-large">
-
-        <span>03</span>
-
-        <h2>7-Day Green Challenge</h2>
-
-        <p>
-            A simple seven-day challenge encouraging
-            students to make one sustainable choice each day.
-        </p>
-
-    </div>
-
-
-    <div class="initiative-large">
-
-        <span>04</span>
-
-        <h2>Environmental Awareness</h2>
-
-        <p>
-            We want to make climate action understandable,
-            practical and accessible to young people.
-        </p>
-
-    </div>
-
-</section>
+    </section>
 
 </main>
 
 
 <footer>
-
-    <h3>TEAM SHAKTI</h3>
-
-    <p>
-        Young minds creating sustainable possibilities.
-    </p>
-
+    <p>TEAM SHAKTI · SUSTAINABLE METHANOL PROJECT</p>
 </footer>
 
-</body>
 
+<script src="script.js"></script>
+
+</body>
 </html>
