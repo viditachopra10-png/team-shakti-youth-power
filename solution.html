@@ -1,139 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Our Solution | Team Shakti</title>
 
     <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
 
 <header class="navbar">
+    <a href="index.html" class="logo">TEAM SHAKTI</a>
 
-    <div class="nav-container">
+    <button class="menu-btn" id="menuBtn">☰</button>
 
-        <a href="index.html" class="logo">
-            TEAM SHAKTI
-        </a>
-
-        <nav>
-
-            <a href="index.html">Home</a>
-            <a href="problem.html">Problem</a>
-            <a href="solution.html" class="active">Solution</a>
-            <a href="process.html">Process</a>
-            <a href="impact.html">Impact</a>
-            <a href="initiatives.html">Initiatives</a>
-
-        </nav>
-
-    </div>
-
+    <nav id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="problem.html">Problem</a>
+        <a href="solution.html" class="active">Solution</a>
+        <a href="process.html">Process</a>
+        <a href="impact.html">Impact</a>
+        <a href="initiatives.html">Initiatives</a>
+    </nav>
 </header>
 
 
-<main>
+<main class="inner-page">
 
-<section class="page-hero">
+    <section class="page-heading">
 
-    <p class="eyebrow">OUR IDEA</p>
+        <p class="eyebrow">THE RESPONSE</p>
 
-    <h1>
-        Our Solution
-    </h1>
-
-    <p>
-        Using captured industrial CO₂ and seawater
-        to explore sustainable methanol production.
-    </p>
-
-</section>
-
-
-<section class="solution-box">
-
-    <div class="resource">
-
-        <h2>Industrial CO₂</h2>
+        <h1>Our Solution</h1>
 
         <p>
-            Captured from industrial exhaust gases.
+            Our idea is to turn captured industrial CO₂ into something useful
+            instead of allowing it to remain only an emission.
         </p>
 
-    </div>
+    </section>
 
 
-    <div class="operator">
-        +
-    </div>
+    <section class="solution-feature">
+
+        <div class="solution-text">
+
+            <p class="section-label">THE IDEA</p>
+
+            <h2>
+                Sustainable Methanol from
+                Industrial CO₂ and Seawater
+            </h2>
+
+            <p>
+                Team Shakti explores a pathway where industrial carbon dioxide
+                can be captured and used as a raw material for sustainable
+                methanol production.
+            </p>
+
+            <p>
+                By connecting carbon capture with fuel production, the project
+                aims to explore how an environmental challenge could become
+                part of a useful solution.
+            </p>
+
+        </div>
+
+        <div class="solution-circle">
+            <span>CO₂</span>
+            <small>RESOURCE</small>
+        </div>
+
+    </section>
 
 
-    <div class="resource">
+    <section class="mini-grid">
 
-        <h2>Seawater</h2>
+        <div class="mini-card">
+            <h3>Capture</h3>
+            <p>
+                Industrial carbon dioxide is captured from exhaust gases.
+            </p>
+        </div>
 
-        <p>
-            A readily available source of water.
-        </p>
+        <div class="mini-card">
+            <h3>Transform</h3>
+            <p>
+                The captured carbon becomes a raw material for the process.
+            </p>
+        </div>
 
-    </div>
+        <div class="mini-card">
+            <h3>Produce</h3>
+            <p>
+                The goal is sustainable methanol production.
+            </p>
+        </div>
 
-
-    <div class="operator">
-        →
-    </div>
-
-
-    <div class="resource result">
-
-        <h2>Sustainable Methanol</h2>
-
-        <p>
-            A useful chemical and potential cleaner fuel.
-        </p>
-
-    </div>
-
-</section>
+    </section>
 
 
-<section class="content-section">
+    <section class="page-transition">
+        <p class="section-label">NEXT STEP</p>
 
-    <h2>Why Methanol?</h2>
+        <h2>See how the process works.</h2>
 
-    <p>
-        Methanol is an important chemical used in several
-        industries and can also be used as a fuel. Producing
-        it through pathways that reuse captured carbon can
-        help explore a more circular approach to carbon.
-    </p>
-
-</section>
+        <a href="process.html" class="primary-btn">
+            Explore the Process →
+        </a>
+    </section>
 
 </main>
 
 
 <footer>
-
-    <h3>TEAM SHAKTI</h3>
-
-    <p>
-        Sustainable ideas for a changing world.
-    </p>
-
+    <p>TEAM SHAKTI · SUSTAINABLE METHANOL PROJECT</p>
 </footer>
 
-</body>
 
+<script src="script.js"></script>
+
+</body>
 </html>
