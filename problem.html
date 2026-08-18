@@ -1,150 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>The Problem | Team Shakti</title>
 
     <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
 
 <header class="navbar">
+    <a href="index.html" class="logo">TEAM SHAKTI</a>
 
-    <div class="nav-container">
+    <button class="menu-btn" id="menuBtn">☰</button>
 
-        <a href="index.html" class="logo">
-            TEAM SHAKTI
-        </a>
-
-        <nav>
-
-            <a href="index.html">Home</a>
-
-            <a href="problem.html" class="active">Problem</a>
-
-            <a href="solution.html">Solution</a>
-
-            <a href="process.html">Process</a>
-
-            <a href="impact.html">Impact</a>
-
-            <a href="initiatives.html">Initiatives</a>
-
-        </nav>
-
-    </div>
-
+    <nav id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="problem.html" class="active">Problem</a>
+        <a href="solution.html">Solution</a>
+        <a href="process.html">Process</a>
+        <a href="impact.html">Impact</a>
+        <a href="initiatives.html">Initiatives</a>
+    </nav>
 </header>
 
 
-<main>
+<main class="inner-page">
 
-    <section class="page-hero">
+    <section class="page-heading">
 
         <p class="eyebrow">THE CHALLENGE</p>
 
-        <h1>
-            The Problem
-        </h1>
+        <h1>The Problem</h1>
 
         <p>
-            Industrial development has brought progress,
-            but it also produces enormous amounts of carbon dioxide.
+            Industrial development has brought progress, but it also produces
+            enormous amounts of carbon dioxide.
         </p>
 
     </section>
 
 
-    <section class="content-section">
+    <section class="content-boxes">
 
-        <div class="content-grid">
-
-            <div class="number-box">
-                01
-            </div>
+        <article class="content-box">
+            <div class="box-number">01</div>
 
             <div>
-
                 <h2>Industrial Carbon Emissions</h2>
 
                 <p>
-                    Factories, power plants and other industrial
-                    activities can release significant amounts of
-                    carbon dioxide into the atmosphere.
+                    Industrial activities release large amounts of carbon dioxide
+                    into the atmosphere. Managing these emissions is an important
+                    challenge for a cleaner future.
                 </p>
-
             </div>
+        </article>
 
-        </div>
 
-
-        <div class="content-grid">
-
-            <div class="number-box">
-                02
-            </div>
+        <article class="content-box">
+            <div class="box-number">02</div>
 
             <div>
-
                 <h2>Carbon as a Waste Product</h2>
 
                 <p>
-                    Carbon dioxide is often treated simply as an
-                    unwanted emission. Our project asks whether
-                    captured CO₂ can instead be treated as a resource.
+                    Carbon dioxide is often treated simply as an unwanted emission.
+                    Our project asks whether captured CO₂ can instead be treated
+                    as a resource.
                 </p>
-
             </div>
+        </article>
 
-        </div>
 
-
-        <div class="content-grid">
-
-            <div class="number-box">
-                03
-            </div>
+        <article class="content-box">
+            <div class="box-number">03</div>
 
             <div>
-
                 <h2>Need for Cleaner Alternatives</h2>
 
                 <p>
-                    As the demand for energy and transportation
-                    continues, finding cleaner and more sustainable
-                    alternatives becomes increasingly important.
+                    As the demand for energy and transportation continues,
+                    finding cleaner and more sustainable alternatives becomes
+                    increasingly important.
                 </p>
-
             </div>
+        </article>
 
-        </div>
+    </section>
 
+
+    <section class="page-transition">
+        <p class="section-label">OUR RESPONSE</p>
+
+        <h2>There has to be another possibility.</h2>
+
+        <a href="solution.html" class="primary-btn">
+            Explore Our Solution →
+        </a>
     </section>
 
 </main>
 
 
 <footer>
-
-    <h3>TEAM SHAKTI</h3>
-
-    <p>
-        Turning challenges into possibilities.
-    </p>
-
+    <p>TEAM SHAKTI · SUSTAINABLE METHANOL PROJECT</p>
 </footer>
 
-</body>
 
+<script src="script.js"></script>
+
+</body>
 </html>
